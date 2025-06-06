@@ -67,7 +67,7 @@ export default function HomePage() {
 	];
 
 	return (
-		<div className="min-h-screen bg-gradient-to-br from-emerald-950 via-black to-emerald-950">
+		<div className="min-h-screen bg-gradient-to-br from-emerald-950 via-black to-emerald-950 overflow-x-hidden">
 			{/* Hero Section */}
 			<section className="relative min-h-screen flex items-center justify-center px-4 overflow-hidden pt-20">
 				{/* Animated Background Elements */}
@@ -434,10 +434,10 @@ export default function HomePage() {
 
 					<div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-12">
 						<motion.div
-							initial={{ opacity: 0, x: -50 }}
-							whileInView={{ opacity: 1, x: 0 }}
+							initial={{ opacity: 0, y: 50 }}
+							whileInView={{ opacity: 1, y: 0 }}
 							transition={{ duration: 0.8 }}
-							viewport={{ once: true }}
+							viewport={{ once: true, margin: "-100px" }}
 							whileHover={{ scale: 1.02, y: -5 }}
 							className="group relative overflow-hidden rounded-3xl bg-gradient-to-br from-emerald-900/30 to-teal-900/30 border border-emerald-500/30 hover:border-emerald-500/70 transition-all duration-300"
 						>
@@ -464,10 +464,10 @@ export default function HomePage() {
 						</motion.div>
 
 						<motion.div
-							initial={{ opacity: 0, x: 50 }}
-							whileInView={{ opacity: 1, x: 0 }}
+							initial={{ opacity: 0, y: 50 }}
+							whileInView={{ opacity: 1, y: 0 }}
 							transition={{ duration: 0.8 }}
-							viewport={{ once: true }}
+							viewport={{ once: true, margin: "-100px" }}
 							whileHover={{ scale: 1.02, y: -5 }}
 							className="group relative overflow-hidden rounded-3xl bg-gradient-to-br from-teal-900/30 to-cyan-900/30 border border-teal-500/30 hover:border-teal-500/70 transition-all duration-300"
 						>
