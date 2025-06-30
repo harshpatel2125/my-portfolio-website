@@ -35,7 +35,7 @@ export default function TechStackPage() {
 				{ name: "MySQL", level: 80, color: "from-blue-400 to-blue-600" },
 				{ name: "Firebase", level: 70, color: "from-yellow-400 to-orange-600" },
 				{
-					name: "Amazon DynamoDB",
+					name: "PostgreSQL",
 					level: 65,
 					color: "from-purple-400 to-purple-600",
 				},

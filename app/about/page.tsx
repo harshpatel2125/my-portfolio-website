@@ -24,12 +24,15 @@ export default function AboutPage() {
 		"Node.js",
 		"Express.js",
 		"GraphQL",
+		"MongoDB",
+		"PostgreSQL",
+		"MySQL",
+		"Amazon DynamoDB",
+		"Microservices",
+		"RESTful APIs",
 		"AWS Services",
 		"Firebase",
 		"WebSocket",
-		"MongoDB",
-		"Amazon DynamoDB",
-		"MySQL",
 		"Git",
 		"Github",
 		"Jira",
@@ -262,7 +265,7 @@ export default function AboutPage() {
 				</motion.section>
 
 				{/* Experience */}
-				<motion.section
+				{/* <motion.section
 					initial={{ opacity: 0, x: -50 }}
 					whileInView={{ opacity: 1, x: 0 }}
 					transition={{ duration: 0.8 }}
@@ -286,10 +289,10 @@ export default function AboutPage() {
 							</motion.div>
 						))}
 					</div>
-				</motion.section>
+				</motion.section> */}
 
 				{/* Education */}
-				<motion.section
+				{/* <motion.section
 					initial={{ opacity: 0, x: 50 }}
 					whileInView={{ opacity: 1, x: 0 }}
 					transition={{ duration: 0.8 }}
@@ -315,7 +318,7 @@ export default function AboutPage() {
 							</motion.div>
 						))}
 					</div>
-				</motion.section>
+				</motion.section> */}
 
 				{/* Certifications */}
 				<motion.section
